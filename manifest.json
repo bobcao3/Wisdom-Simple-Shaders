@@ -1,0 +1,18 @@
+{
+   "format_version" : 1,
+   "header" : {
+      "description" : "Wisdom Shaders BedRock Edition is a lightweight port of the popular Wisdom Shaders from Java edition. High visual quality with extremely good performance.",
+      "name" : "Wisdom Shader - BedRock 1.12",
+      "uuid" : "58fc2bfc-cf81-40f5-a6ef-048cf038739c",
+      "version" : [ 1, 0, 0 ],
+      "min_engine_version" : [ 1, 12, 0 ]
+   },
+   "modules" : [
+      {
+         "description" : "",
+         "type" : "resources",
+         "uuid" : "37bf9d20-fb3d-4a26-bcc9-c1ba3180df3f",
+         "version" : [ 1, 0, 0 ]
+      }
+   ]
+}

@@ -1,0 +1,11 @@
+// __multiversion__
+
+        uniform sampler2D TEXTURE_0;
+        in vec2 Frag_UV;
+        in vec4 Frag_Color;
+        out vec4 Out_Color;
+        void main()
+        {
+        	Out_Color = Frag_Color * texture( TEXTURE_0, Frag_UV.st);
+        }
+

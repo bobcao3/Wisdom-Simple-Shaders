@@ -1,0 +1,17 @@
+// __multiversion__
+// This signals the loading code to prepend either #version 100 or #version 300 es as apropriate.
+
+        uniform mat4 ProjectionMatrix;
+
+        in vec2 POSITION;
+        in vec2 TEXCOORD_0;
+        in vec4 COLOR;
+        out vec2 Frag_UV;
+        out vec4 Frag_Color;
+        void main()
+        {
+        	Frag_UV = TEXCOORD_0;
+        	Frag_Color = COLOR;
+        	gl_Position = ProjectionMatrix * vec4(POSITION.xy,0,1);
+        }
+
